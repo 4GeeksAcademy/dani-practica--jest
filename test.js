@@ -9,5 +9,5 @@ test("One dollar should be 146.26 yens", function() {
 })
 
 test("One yen should be 0.0056 pounds", function() {
-    expect(fromDollarToYen(1)).toBe(146.26); 
+    expect(fromYenToPound(1)).toBe(0.0056); 
 })
